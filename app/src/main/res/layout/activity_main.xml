@@ -26,13 +26,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="218dp"
-        android:layout_height="143dp"
+        android:layout_width="183dp"
+        android:layout_height="181dp"
         android:layout_marginStart="96dp"
         android:layout_marginEnd="97dp"
         android:layout_marginBottom="294dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

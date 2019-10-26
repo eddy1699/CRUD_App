@@ -50,6 +50,7 @@
                 android:textColor="#FFFF" />
 
             <EditText
+                android:id="@+id/txtRegNom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp" />
@@ -64,6 +65,7 @@
                 android:textColor="#FFFF" />
 
             <EditText
+                android:id="@+id/txtRegApe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -85,6 +87,7 @@
                 android:orientation="horizontal">
 
                 <EditText
+                    android:id="@+id/txtRegDia"
                     android:layout_width="114dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -92,6 +95,7 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
+                    android:id="@+id/txtRegMes"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -99,6 +103,7 @@
                     android:textColor="#FFFFFF" />
 
                 <EditText
+                    android:id="@+id/txtRegAnio"
                     android:layout_width="134dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -116,6 +121,7 @@
                 android:textColor="#FFFFFF" />
 
             <EditText
+                android:id="@+id/txtRegEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -131,6 +137,7 @@
                 android:textColor="#FFFFFF" />
 
             <EditText
+                android:id="@+id/txtRegClave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -147,29 +154,32 @@
                 android:textColor="#FFFFFF" />
 
             <EditText
+                android:id="@+id/txtRegCalveConfir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textColor="#FFFFFF" />
 
             <CheckBox
+                android:id="@+id/chkTermCond"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:text="Acepto los terminos y condiciones"
                 android:textAlignment="center"
-                android:textSize="20dp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
 
             <Button
+                android:id="@+id/btnRegRegistrarse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="30dp"
+                android:background="#FFFF"
                 android:text="Registrarse"
                 android:textAlignment="center"
-                android:textColor="#DF3333"
-                android:background="#FFFF"/>
+                android:textColor="#DF3333" />
 
         </LinearLayout>
     </ScrollView>
